@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #06283D;
+}
+
+.contenedor {
+    position: center;   
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    padding: 28px 32px;
+    overflow: hidden;
+    border-radius: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.texto{
+    text-align: relative;
+    font-style: oblique;
+    font-stretch: expanded;
+    padding: 25px;
+}
+
+.enlace{
+    text-align: center;
+}
